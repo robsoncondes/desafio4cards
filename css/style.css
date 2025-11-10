@@ -10,6 +10,7 @@
     --orangeColor: hsl(34, 97%, 64%);
     --blueColor: hsl(212, 86%, 64%);
     --veryDarkBlue: hsl(234, 12%, 34%);
+    --veryMediumBlue: hsl(212, 6%, 44%);
     --grayishBlue: hsl(229, 6%, 66%);
     --veryLightGray: hsl(0, 0%, 98%);
     --whiteColor: hsl(0, 0%, 100%);
@@ -69,24 +70,37 @@ header {
 
 header h1 {
     font-size: 27px;
-    font-weight: 300;
+    font-weight: 200;
     color: var(--grayishBlue);
 }
 
 header h2 {
     font-size: 27px;
+    font-weight: 600;
     color: var(--veryDarkBlue);
     margin-top: 8px;
     margin-bottom: 12px;
 }
 
 header p {
-    color: var(--grayishBlue);
+    color: var(--veryMediumBlue);
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
     max-width: 555px;
     margin: 0 auto;
+}
+
+.cards h3 {
+    color: var(--veryDarkBlue);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cards p {
+    color: var(--veryMediumBlue);
+    font-size: 15px;
+    font-weight: 400;
 }
 
 /*End header Section*/
@@ -100,8 +114,8 @@ header p {
     background-color: var(--whiteColor);
     padding: 29px 25px;
     width: 100%;
-    max-width: 352px;
-    margin: 0 auto 25px auto;
+    max-width: 390px;
+    margin: 25px auto 25px auto;
     border-radius: 10px;
     border-top: 2px solid transparent;
     box-shadow: 0px 5px 10px 0px rgba(216, 226, 238, .75);
@@ -122,6 +136,8 @@ header p {
 
 .cards .card img {
     display: block;
+    padding-top: 30px;
+    padding-bottom: 25px;
     margin-left: auto;
 }
 
